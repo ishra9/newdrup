@@ -1,0 +1,22 @@
+uuid: 7288ab1b-a6ed-4e8f-bc00-c7f988e02b04
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ria
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: ria_powered
+theme: ria
+region: '-1'
+weight: -2
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,55 @@
+/* line 1, ../../sass/files/menu.scss */
+#block-follow {
+  background-color: #fff;
+  padding: 3em 0em .5em 9em;
+}
+
+/* line 5, ../../sass/files/menu.scss */
+#block-ria-branding {
+  float: left;
+  margin-left: 8em;
+}
+
+/* line 9, ../../sass/files/menu.scss */
+.views-row {
+  padding: 2px;
+  clear: both;
+}
+
+/* line 13, ../../sass/files/menu.scss */
+.header [role="banner"] {
+  padding: 1em;
+  line-height: 18px;
+}
+
+/* line 18, ../../sass/files/menu.scss */
+#block-ria-main-menu {
+  display: -moz-inline-box;
+}
+
+/* line 21, ../../sass/files/menu.scss */
+#block-ria-main-menu ul {
+  list-style: none;
+}
+
+/* line 25, ../../sass/files/menu.scss */
+#block-ria-main-menu ul li {
+  float: left;
+  margin: 0px;
+  list-style-type: none;
+  display: block;
+  overflow: hidden;
+}
+
+/* line 32, ../../sass/files/menu.scss */
+#block-ria-main-menu ul li a {
+  display: block;
+  color: #6e276b;
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 10px 20px 10px;
+  text-decoration: none;
+}

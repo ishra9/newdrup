@@ -1,0 +1,22 @@
+uuid: b72c287c-387d-4649-af00-b4006d2a26c4
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - ria
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ria_help
+theme: ria
+region: '-1'
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

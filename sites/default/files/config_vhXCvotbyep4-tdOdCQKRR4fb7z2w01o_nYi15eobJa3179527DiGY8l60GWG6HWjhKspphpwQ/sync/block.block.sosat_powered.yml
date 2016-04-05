@@ -1,0 +1,22 @@
+uuid: df74f68b-4738-4bec-ad07-7f0ad85ec979
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sosat
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: sosat_powered
+theme: sosat
+region: header
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

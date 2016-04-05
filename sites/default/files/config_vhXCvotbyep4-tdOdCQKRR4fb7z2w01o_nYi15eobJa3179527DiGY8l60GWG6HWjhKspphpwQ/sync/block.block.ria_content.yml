@@ -1,0 +1,22 @@
+uuid: ca54e4ef-9eb4-4bfa-a300-a3fef6e9c254
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ria
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ria_content
+theme: ria
+region: '-1'
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

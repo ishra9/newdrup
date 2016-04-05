@@ -1,0 +1,22 @@
+uuid: 0c3fc921-c684-4d8c-ba4b-75e75ae22a15
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - color
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: color_messages
+theme: color
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: d4c44be8-78a1-429a-b803-3ad8c944df29
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.slideshow.field_image
+    - node.type.slideshow
+  module:
+    - image
+    - user
+id: node.slideshow.full
+targetEntityType: node
+bundle: slideshow
+mode: full
+content:
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

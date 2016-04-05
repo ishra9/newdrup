@@ -1,0 +1,20 @@
+uuid: 6895095a-16c9-43a3-9600-f83806056aeb
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ria
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ria_local_actions
+theme: ria
+region: '-1'
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

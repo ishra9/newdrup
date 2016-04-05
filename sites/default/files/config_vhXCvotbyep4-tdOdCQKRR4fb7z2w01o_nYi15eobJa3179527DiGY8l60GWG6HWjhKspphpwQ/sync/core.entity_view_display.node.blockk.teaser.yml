@@ -1,0 +1,26 @@
+uuid: e492c76b-be84-496e-ab00-c480ddf6e1ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blockk.body
+    - node.type.blockk
+  module:
+    - text
+    - user
+id: node.blockk.teaser
+targetEntityType: node
+bundle: blockk
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

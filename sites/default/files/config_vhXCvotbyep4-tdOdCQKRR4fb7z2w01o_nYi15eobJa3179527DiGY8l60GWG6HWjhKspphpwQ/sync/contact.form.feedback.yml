@@ -1,0 +1,12 @@
+uuid: 0f4fe146-648c-4ee6-bf41-65ed0866a020
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - ishrabhat@gmail.com
+reply: ''
+weight: 0

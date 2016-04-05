@@ -1,0 +1,29 @@
+uuid: 44eaa33f-4a59-4ad6-ab00-0abcb64ff0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slideshow.field_image
+    - image.style.thumbnail
+    - node.type.slideshow
+  module:
+    - image
+id: node.slideshow.default
+targetEntityType: node
+bundle: slideshow
+mode: default
+content:
+  field_image:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  title: true
+  uid: true

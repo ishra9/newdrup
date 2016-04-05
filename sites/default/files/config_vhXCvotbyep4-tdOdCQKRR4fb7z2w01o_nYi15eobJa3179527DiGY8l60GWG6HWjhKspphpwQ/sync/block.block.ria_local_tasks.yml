@@ -1,0 +1,22 @@
+uuid: d1ef8d29-4e4b-4549-844d-775a8f917764
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ria
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: ria_local_tasks
+theme: ria
+region: '-1'
+weight: 2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

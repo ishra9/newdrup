@@ -1,0 +1,22 @@
+uuid: 12a5e236-80b2-42c5-821e-30531834fc44
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sosat
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: sosat_content
+theme: sosat
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

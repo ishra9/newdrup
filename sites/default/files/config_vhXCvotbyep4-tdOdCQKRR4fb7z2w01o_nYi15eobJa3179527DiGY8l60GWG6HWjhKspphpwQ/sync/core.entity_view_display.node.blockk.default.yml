@@ -1,0 +1,24 @@
+uuid: deec190c-a3cb-4f1f-bc06-6c60c265ed54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blockk.body
+    - node.type.blockk
+  module:
+    - text
+    - user
+id: node.blockk.default
+targetEntityType: node
+bundle: blockk
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

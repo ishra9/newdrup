@@ -1,0 +1,25 @@
+uuid: 54bfef7f-5dd4-4d07-b000-fb3d44bc8063
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a2d52456-7b06-4551-9d00-f824bbf803dc'
+  module:
+    - block_content
+  theme:
+    - ria
+id: follow
+theme: ria
+region: header_top
+weight: -8
+provider: null
+plugin: 'block_content:a2d52456-7b06-4551-9d00-f824bbf803dc'
+settings:
+  id: 'block_content:a2d52456-7b06-4551-9d00-f824bbf803dc'
+  label: FOLLOW
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

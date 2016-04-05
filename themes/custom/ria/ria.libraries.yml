@@ -1,0 +1,6 @@
+global-css:
+  css:
+    theme:
+      stylesheets/screen.css: {}
+  # js:
+    # js/script.js: {}

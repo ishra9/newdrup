@@ -1,0 +1,38 @@
+uuid: 8296bb14-ed1f-46fe-8606-061f6382537e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.imageshow
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - ria
+id: views_block__imageshow_block_1
+theme: ria
+region: header_bottom
+weight: -7
+provider: null
+plugin: 'views_block:imageshow-block_1'
+settings:
+  id: 'views_block:imageshow-block_1'
+  label: imageshow
+  provider: views
+  label_display: '0'
+  views_label: imageshow
+  items_per_page: '5'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      slideshow: slideshow
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

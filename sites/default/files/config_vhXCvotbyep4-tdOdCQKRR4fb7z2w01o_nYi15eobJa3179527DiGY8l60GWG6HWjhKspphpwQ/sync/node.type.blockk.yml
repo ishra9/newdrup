@@ -1,0 +1,18 @@
+uuid: 5f51e9a8-6961-44d0-a700-e29d8f103090
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: blockk
+type: blockk
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

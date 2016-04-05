@@ -1,0 +1,25 @@
+uuid: 8c652599-2982-4a0e-aa33-51f0bf82789a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sosat
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: sosat_branding
+theme: sosat
+region: primary_menu
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

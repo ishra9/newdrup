@@ -1,0 +1,42 @@
+#block-follow {
+  background-color: #fff;
+  padding: 3em 0em .5em 9em;
+}
+#block-ria-branding {
+    float: left;
+    margin-left: 8em;
+}
+.views-row {
+  padding: 2px;
+  clear:both;
+}
+.header [role="banner"] {
+padding:1em;
+line-height:18px;
+}
+
+#block-ria-main-menu {
+  display: -moz-inline-box;  
+}
+ #block-ria-main-menu ul {
+
+  list-style: none;
+}
+ #block-ria-main-menu ul li {
+    float:left;
+    margin: 0px;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+ }
+#block-ria-main-menu ul li a {
+	 display: block;
+    color: #6e276b;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 10px 20px 10px;
+     text-decoration: none;
+}

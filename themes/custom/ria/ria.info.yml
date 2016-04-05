@@ -1,0 +1,11 @@
+name: ria
+type: theme
+core: 8.x
+libraries:
+  - ria/global-css
+regions:
+  header_top: 'header top'
+  header: 'Header'
+  sidebar_first: 'sidebar first'
+  content: 'content'
+  header_bottom: 'header bottom'
